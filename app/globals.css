@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Red / black high-contrast theme: near-black background with a faint red
+   tint, warm near-white foreground, dark charcoal card surfaces, deep
+   red-tinted borders, and a vivid red primary accent for CTAs and highlights. */
 @layer base {
   :root {
-    --foreground: hsl(40 20% 96%);
-    --card: hsl(0 0% 100%);
-    --border: hsl(240 5.9% 90%);
-    --muted-foreground: hsl(240 5% 65%);
+    --foreground: hsl(0 0% 98%);
+    --card: hsl(0 0% 7%);
+    --border: hsl(0 55% 24%);
+    --muted-foreground: hsl(0 10% 65%);
 
-    --primary: #5EEAD4;
-    --background: #0B0E14;
+    --primary: #EF233C;
+    --background: #0A0000;
   }
 }
