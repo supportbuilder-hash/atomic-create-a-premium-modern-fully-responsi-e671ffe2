@@ -4,12 +4,12 @@
 
 @layer base {
   :root {
-    --foreground: 40 20% 96%;
-    --card: 0 0% 100%;
-    --border: 240 5.9% 90%;
-    --muted-foreground: 240 5% 65%;
-  
+    --foreground: hsl(40 20% 96%);
+    --card: hsl(0 0% 100%);
+    --border: hsl(240 5.9% 90%);
+    --muted-foreground: hsl(240 5% 65%);
+
     --primary: #5EEAD4;
     --background: #0B0E14;
-}
+  }
 }
