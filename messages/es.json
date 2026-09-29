@@ -1,0 +1,14 @@
+{
+  "footer": {
+    "builtWith": "Construido con React y Tailwind",
+    "connectHeading": "Conectemos",
+    "quickLinksHeading": "Enlaces Rápidos",
+    "rightsReserved": "© 2024 Rao Muhammad Ali. Todos los derechos reservados.",
+    "tagline": "Ingeniero de calidad. Defensor de la automatización. Siempre probando."
+  },
+  "navbar": {
+    "closeMenu": "Cerrar menú",
+    "cta": "Ponte en contacto",
+    "openMenu": "Abrir menú"
+  }
+}

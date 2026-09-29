@@ -1,0 +1,14 @@
+{
+  "footer": {
+    "builtWith": "Built with React & Tailwind",
+    "connectHeading": "Let's Connect",
+    "quickLinksHeading": "Quick Links",
+    "rightsReserved": "© 2024 Rao Muhammad Ali. All rights reserved.",
+    "tagline": "Quality engineer. Automation advocate. Always testing."
+  },
+  "navbar": {
+    "closeMenu": "Close menu",
+    "cta": "Get in touch",
+    "openMenu": "Open menu"
+  }
+}
