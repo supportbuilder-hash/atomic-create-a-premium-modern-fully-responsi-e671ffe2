@@ -3,12 +3,20 @@
     "builtWith": "Built with React & Tailwind",
     "connectHeading": "Let's Connect",
     "quickLinksHeading": "Quick Links",
-    "rightsReserved": "© 2024 Rao Muhammad Ali. All rights reserved.",
-    "tagline": "Quality engineer. Automation advocate. Always testing."
+    "rightsReserved": "\u00a9 2024 Rao Muhammad Ali. All rights reserved.",
+    "tagline": "Software Development Engineer in Test. Automation, API, and performance testing."
   },
   "navbar": {
     "closeMenu": "Close menu",
     "cta": "Get in touch",
     "openMenu": "Open menu"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "automation": "Automation",
+    "experience": "Experience",
+    "contact": "Contact"
   }
 }

@@ -11,29 +11,38 @@ export interface SocialLink {
 }
 
 export const APP_NAME = "Rao Muhammad Ali";
-export const APP_ROLE = "Software Developer";
+export const APP_ROLE = "Software Development Engineer in Test";
 export const APP_TAGLINE =
-  "Full-stack software developer building fast, reliable products.";
+  "I test products from the user's perspective and the system's edge cases.";
 
 // Single source of truth for site navigation. Only the homepage exists right
 // now, so every entry besides "Home" points at an on-page section anchor.
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/", key: "home" },
-  { label: "Work", href: "#featured-work", key: "work" },
-  { label: "Skills", href: "#skills-snapshot", key: "skills" },
-  { label: "Testimonials", href: "#testimonials", key: "testimonials" },
-  { label: "Contact", href: "#cta", key: "contact" },
+  { label: "About", href: "#about", key: "about" },
+  { label: "Expertise", href: "#expertise", key: "expertise" },
+  { label: "Automation", href: "#automation", key: "automation" },
+  { label: "Experience", href: "#experience", key: "experience" },
+  { label: "Contact", href: "#contact", key: "contact" },
 ];
 
 export const primaryCta: NavLink = {
   label: "Get in touch",
-  href: "#cta",
+  href: "#contact",
   key: "contact",
 };
 
+// GitHub and LinkedIn URLs are placeholders until Rao supplies verified links.
 export const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/raomuhammadali", icon: "Github" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/raomuhammadali", icon: "Linkedin" },
-  { label: "Twitter", href: "https://twitter.com/raomuhammadali", icon: "Twitter" },
-  { label: "Email", href: "mailto:hello@raomuhammadali.dev", icon: "Mail" },
+  {
+    label: "GitHub",
+    href: "https://github.com/REPLACE_WITH_VERIFIED_GITHUB",
+    icon: "Github",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/REPLACE_WITH_VERIFIED_LINKEDIN",
+    icon: "Linkedin",
+  },
+  { label: "Email", href: "mailto:raomali005@gmail.com", icon: "Mail" },
 ];
